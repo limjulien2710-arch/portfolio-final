@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #4682B4;
+ /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #EEE8AA
+
+}
+
+/* SECTION GLOBALE — fond bleu pastel autour du cadre */
+.home-section {
+  background-color: #e6f4ff;   /* bleu pastel très clair en dehors du cadre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;             /* espace autour du cadre */
+}
+
+/* CADRE BLANC AVEC OMBRE */
+.home-top {
+  background-color: #ffffff;   /* fond du cadre */
+  border-radius: 20px;         /* coins arrondis */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* ombre douce */
+  padding: 50px;
+  display: flex;
+  justify-content: center;     /* texte + image centrés */
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;             /* repasse en colonne sur petit écran */
+  max-width: 1000px;           /* largeur max du cadre */
+  width: 90%;                  /* largeur adaptative */
+}
+
+/* CONTENU TEXTE */
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  color: #4682B4; /* bleu ciel */
+  margin-bottom: 10px;
+}
+
+.home-content h3 {
+  color: #4682B4;
+  margin-bottom: 5px;
+}
+
+/* IMAGE */
+.home-img img {
+  border-radius: 20px;
+  max-width: 200px;
+}
+
+/* DESCRIPTION EN BAS DU CADRE */
+.description {
+  background-color: #e6f4ff;   /* fond très clair à l'intérieur du cadre */
+  border-left: 4px solid #4682B4;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto 0 auto;   /* espace au-dessus et centré */
+  text-align: justify;
+}
+
+.description h2 {
+  color: #4682B4;
+  font-size: 22px;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 60px ;
+  background: #4682B4;
+  color: white;
+  font-size: 14px;
+}
+footer p:first-child {
+  margin-bottom: 10px;
+}
+footer p:middle-child {
+  margin-bottom: 10px;
+}
